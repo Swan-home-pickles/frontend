@@ -1,0 +1,180 @@
+.nav-bar a {
+  color: black;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 6em;
+  background-color: rgb(241, 242, 244);
+  box-shadow: 0em 0.1em 0.1em rgb(108, 108, 108);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo {
+  display: flex;
+}
+.logo-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: var(--font-family--);
+  font-weight: 600;
+  font-size: 1.2em;
+}
+#logo-text {
+  color: rgba(234, 75, 64, 0.893);
+}
+#logo-text span {
+  color: green;
+  margin-left: 0.5em;
+}
+.logo-name2 {
+  color: orange;
+}
+.nav-linkes {
+  display: flex;
+  gap: 4em;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 550;
+}
+.nav-linkes li a,
+.cart a {
+  display: block;
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  transition: box-shadow 0.3s, background-color 0.3s;
+}
+
+.nav-linkes li :hover {
+  box-shadow: inset 6px 6px 7px #dadada, inset -6px -6px 7px #ffffff;
+  background-color: #f3f3f5;
+}
+.nav-linkes li.active {
+  border-radius: 10px;
+  box-shadow: inset 6px 6px 7px #dadada, inset -6px -6px 7px #ffffff;
+  background-color: #f3f3f5;
+}
+.cart a:hover {
+  box-shadow: inset 6px 6px 7px #dadada, inset -6px -6px 7px #ffffff;
+  background-color: #f3f3f5;
+}
+.cart a {
+  position: relative;
+}
+#cart-icon {
+  font-size: 30px;
+}
+
+#cart-count {
+  position: absolute;
+  top: 2%;
+  right: 8%;
+
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 11px;
+  font-weight: bold;
+}
+.hambergur-menu {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-bar {
+    padding: 1em 2em;
+  }
+
+  .nav-linkes {
+    gap: 1em;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 765px) {
+  .nav-bar {
+    padding: 1em 0.2em;
+  }
+
+  .nav-linkes {
+    gap: 0.3em;
+    font-size: 0.7em;
+  }
+  .logo {
+    display: flex;
+  }
+  .logo-name {
+    font-size: 0.7em;
+  }
+
+  #cart-icon {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 452px) {
+  .nav-linkes {
+    gap: 0.5em;
+  }
+  .logo-name {
+    font-size: 0.5em;
+  }
+
+  .logo-name2 {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 424px) {
+  .nav-bar {
+    padding: 0.5em 0.5em;
+  }
+  .hambergur-menu {
+    display: flex;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  .nav-linkes {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    /* background-color: rgb(159, 241, 121); */
+    transform: scaleY(0);
+    gap: 1em;
+    padding: 1em;
+    transition: all 0.8ms ease-in-out;
+    /* background-image: url(../../assets/slider.jpg); */
+    background-image: url(../../assets/picklestyleimg.webp);
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .nav-linkes.open {
+    display: flex;
+    top: 100%;
+    z-index: 1000;
+
+    transform: scaleY(1);
+  }
+  .nav-linkes li a {
+    color: white;
+  }
+  .nav-linkes li.active a {
+    color: black !important;
+  }
+  .nav-linkes li :hover {
+    color: black;
+  }
+}

@@ -1,0 +1,100 @@
+.site-footer a {
+  text-decoration: none;
+  color: black;
+}
+.site-footer {
+  text-align: center;
+
+  background-color: rgb(241, 242, 244);
+  font-weight: 600;
+}
+
+.footer {
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  display: flex;
+}
+.logo-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+#logo-text {
+  color: rgba(234, 75, 64, 0.893);
+}
+#logo-text span {
+  color: green;
+  margin-left: 0.5em;
+}
+.logo-name2 {
+  color: orange;
+}
+.linkes-name {
+  font-weight: 500;
+}
+
+.linkes-name :hover {
+  color: blue;
+}
+.copy-right {
+  padding: 0.3em;
+
+  background-color: rgba(241, 242, 244, 0.2);
+}
+.email-name {
+  font-weight: 600;
+}
+.foter-add {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+@media (min-width: 425px) and (max-width: 765px) {
+  .logo-name {
+    font-size: 0.7em;
+  }
+  #cart-icon {
+    font-size: 25px;
+  }
+}
+@media (max-width: 424px) {
+  .site-footer {
+    padding: 1em;
+  }
+  .logo-name {
+    font-size: 0.6em;
+  }
+  .footer {
+    padding: 0.2em;
+  }
+  .copy-right {
+    font-size: 0.8em;
+  }
+  .linkes {
+    margin-top: 2em;
+  }
+  .foter-head {
+    font-size: 0.7em;
+  }
+  .foot-head-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+  }
+  .foter-add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    padding-left: 2em;
+  }
+}

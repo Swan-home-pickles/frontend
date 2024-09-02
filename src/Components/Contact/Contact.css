@@ -1,0 +1,127 @@
+.contact-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.error {
+  color: red;
+}
+.locatcards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  margin-bottom: 5em;
+  flex-wrap: wrap;
+}
+.loc-card {
+  padding: 2em;
+  border-radius: 26px;
+  background: #e0e0e0;
+  box-shadow: 29px 29px 59px #cccccc, -29px -29px 59px #f4f4f4;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-family: Robato;
+}
+.loc-card address {
+  text-align: center;
+}
+#loc-icon {
+  font-size: 2em;
+  color: orange;
+}
+
+.contact-map {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin-bottom: 5em;
+}
+
+.cont-details {
+  width: 50%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.cont-details h4 {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 24px;
+}
+
+.cont-details h5 {
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 16px;
+}
+
+.cont-details input,
+.cont-details textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.cont-details input:focus,
+.cont-details textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+.cont-details textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.cont-details button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cont-details button:hover {
+  background-color: #0056b3;
+}
+
+.con-location {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 425px) {
+  .contact-map {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+  .cont-details {
+    width: 100%;
+  }
+  .con-location {
+    width: 100%;
+  }
+}

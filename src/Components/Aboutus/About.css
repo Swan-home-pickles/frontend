@@ -1,0 +1,199 @@
+.aboutus-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.about-header {
+  background-image: url(../../assets/picklestyleimg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 3rem 1rem;
+  text-align: center;
+  color: white;
+  min-height: 250px;
+}
+
+.about-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  z-index: 1;
+}
+
+.about-header h4,
+.about-header h5,
+.about-header h6 {
+  position: relative;
+  z-index: 2;
+  margin: 0.6rem 0;
+}
+
+.about-header h4 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.about-header h5 {
+  font-size: 2.5rem;
+  font-weight: 600;
+
+  color: orange;
+  font-family: var(--font-family--);
+}
+
+.about-header h6 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.aboutus-section p {
+  font-size: 1rem;
+
+  margin-bottom: 2rem;
+}
+.aboutus-section {
+  margin-bottom: 2rem;
+  background-color: rgba(4, 32, 60, 0.942);
+  color: white;
+  padding: 3em 2em;
+}
+
+.aboutus-section h4 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5em;
+}
+.abut-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.abut-video video {
+  width: 80%;
+  height: 80dvh;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  object-fit: cover;
+  filter: brightness(1.1);
+}
+.abut-video p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.about-instrn {
+  padding: 2em 3em;
+  font-weight: 500;
+  font-size: 1em;
+}
+#abt-icon {
+  color: #4caf50;
+  margin-right: 0.5em;
+}
+.abt-offfer {
+  /* background-color: #fff; */
+  background-color: rgba(109, 109, 109, 0.2);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4em 1.5em;
+}
+.abt-offfer h4 {
+  margin-bottom: 1em;
+}
+.abt-offfer p {
+  text-align: center;
+}
+.why-swan-pickles {
+  background-color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 80%;
+  border: 1px solid black;
+}
+
+.why-swan-pickles h4 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.why-swan-pickles h6 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.why-swan-pickles p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about-header h4 {
+    font-size: 1.5rem;
+  }
+
+  .about-header h5 {
+    font-size: 1.2rem;
+  }
+
+  .about-header h6 {
+    font-size: 1rem;
+  }
+  .why-swan-pickles {
+    padding: 1.5rem 1rem;
+  }
+
+  .why-swan-pickles h4 {
+    font-size: 1.6rem;
+  }
+
+  .why-swan-pickles h6 {
+    font-size: 1.2rem;
+  }
+
+  .why-swan-pickles p {
+    font-size: 0.9rem;
+  }
+  .abut-video video {
+    height: 50dvh;
+  }
+}
+@media screen and (max-width: 425px) {
+  .aboutus-section p {
+    font-size: 0.7rem;
+  }
+  .aboutus-section {
+    padding: 1.5em 1em;
+  }
+
+  .aboutus-section h4 {
+    font-size: 1rem;
+  }
+  .abut-video video {
+    height: 30dvh;
+  }
+  .abut-video p {
+    font-size: 0.6em;
+  }
+}
