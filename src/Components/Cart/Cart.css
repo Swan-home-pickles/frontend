@@ -18,7 +18,9 @@
   font-weight: 700;
   font-family: Roboto;
 }
-
+.error {
+  color: red;
+}
 .cart-item-main {
   gap: 10%;
 }

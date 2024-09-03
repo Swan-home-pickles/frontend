@@ -53,11 +53,14 @@ const Cart = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:8080/checkout", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, phonenum, address, cartItems }),
-      });
+      const response = await fetch(
+        "https://backend-alpha-seven-19.vercel.app/checkout",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ name, phonenum, address, cartItems }),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Failed to send order details");
