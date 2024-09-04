@@ -236,7 +236,6 @@
 
   .cart-head-names {
     font-size: 1.4em;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -244,12 +243,16 @@
 
   .cart-item {
     width: 100%;
-
     gap: 8%;
     margin-left: 0;
     padding: 0;
   }
-
+  .cart-item h3 {
+    font-size: 1em;
+  }
+  .cart-item-n-price {
+    margin-left: -2em;
+  }
   .cart-item p {
     font-weight: 500;
     font-size: 1em;
@@ -264,6 +267,7 @@
     display: none;
   }
 }
+
 @media (max-width: 425px) {
   .cart-item-heading {
     display: flex;
@@ -289,6 +293,7 @@
   }
   #cart-grams {
     font-size: 1em;
+    margin-left: 15%;
   }
 
   #cart-inmt-dcrmt {
@@ -296,9 +301,13 @@
   }
   .quantity-controls-cart {
     gap: 0.5em;
+    margin-left: 20%;
+  }
+  .total-price {
+    margin-left: 25%;
   }
   .quantity-controls-cart input {
-    width: 25%;
+    width: 30%;
   }
   .delete-btn {
     display: none;

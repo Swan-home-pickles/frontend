@@ -16,7 +16,7 @@ const chickenDetails = [
   },
   {
     images: chickenboneless,
-    name: "Chicken (Boneless)",
+    name: "Chicken Boneless",
     price: {
       "250grms": 325,
       "500grms": 650,
@@ -25,7 +25,7 @@ const chickenDetails = [
   },
   {
     images: chickengoungura,
-    name: "Gongura (Boneless)",
+    name: "Gongura Boneless",
     price: {
       "250grms": 350,
       "500grms": 700,

@@ -99,7 +99,7 @@ const Cart = () => {
               <div className="cart-head-names">
                 <p className="cart-item-p">Cart Iteam</p>
                 <p>product Name</p>
-                <p>Price</p>
+                <p className="cart-item-n-price">Price</p>
                 <p>Grams</p>
                 <p>Qty</p>
                 <p>Subtotal</p>
