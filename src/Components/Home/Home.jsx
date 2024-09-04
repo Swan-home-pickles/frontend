@@ -59,9 +59,13 @@ const Home = () => {
           <div className="banner-text">
             <h1 className="h1-title">
               Welcome to our
-              <span>Swan</span>
-              Home Pickles.
+              <br />
+              <span>Swan Home </span>
+              Pickles.
             </h1>
+            <p className="cotation">
+              Elevate your meals with our signature non veg pickles
+            </p>
             <p>
               Savor the taste of tradition with our handpicked selection of
               pickles, crafted with the freshest ingredients and time-honored

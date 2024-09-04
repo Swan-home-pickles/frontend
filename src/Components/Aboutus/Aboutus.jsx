@@ -12,7 +12,7 @@ const Aboutus = () => {
 
           <h5>Family Of Swan Home Pickles </h5>
 
-          <h6>Good Food Gives Good Mood & Good Mood Gives Health & Wealth.</h6>
+          <h6>Delicious Non Veg Pickles Made Especially For Meat Lovers.</h6>
         </div>
 
         <div className="aboutus-section ">
@@ -21,7 +21,7 @@ const Aboutus = () => {
             Swan Home Pickles was started by Two Well Educated Homemakers who
             can make pickles in such a way that, each bite of rice you take with
             our pickles will feast your taste buds. It’s more of a tradition
-            than business for last 33 years. We feel that everyone should taste
+            than business for last 7 years. We feel that everyone should taste
             our pickles at least once to tell this is true. We are backed by a
             couple of grannies, who fed few hundred families in their decades of
             homemade pickling experience. Our pickles are 100% home-made with
@@ -39,12 +39,7 @@ const Aboutus = () => {
             his life. Wait! It doesn’t stop there. We thought let’s bring back
             even more memories to all our customers by offering exotic and rare
             fruits & flowers too. These so called exotic varieties were street
-            fruits & flowers which vendors used to sell in our days. We started
-            offering products like Thati Munjalu, Thati Tegalu, Regi Pallu,
-            Eetha Pallu, Kale Kayalu, Bikki Kayalu and many more. This
-            generation might not have even heard of a few of these fruits, but
-            we used to buy them in front of our school gates every day, Didn’t
-            we, Happy Customers?
+            fruits & flowers which vendors used to sell in our days.
           </p>
           <p>
             All we can say is, Taste it once and you are sure to come back for
